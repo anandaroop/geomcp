@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "dotenv"
+gem "geo_names"
 gem "mcp"
 gem "standard"
 

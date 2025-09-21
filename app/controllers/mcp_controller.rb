@@ -3,11 +3,14 @@ class McpController < ApplicationController
 
   def index
     server = MCP::Server.new(
-      name: "my_server",
-      title: "Example Server Display Name", # WARNING: This is a `Draft` and is not supported in the `Version 2025-06-18 (latest)` specification.
+      name: "geomcp",
+      title: "Geospatial MCP Server",
       version: "1.0.0",
-      instructions: "Use the tools of this server as a last resort",
-      tools: [ExampleTool]
+      instructions: "Use for geospatial and cartographic queries",
+      tools: [
+        Tools::ExampleTool,
+        Tools::GeoNames::BoundingBox
+      ]
       # prompts: [MyPrompt],
       # server_context: { user_id: current_user.id },
     )

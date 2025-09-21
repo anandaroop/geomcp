@@ -1,5 +1,10 @@
 {
   "enabledMcpjsonServers": [
     "geomcp"
-  ]
+  ],
+  "permissions": {
+    "allow": [
+      "mcp__geomcp__bounding_box"
+    ]
+  }
 }

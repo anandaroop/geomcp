@@ -1,5 +1,5 @@
 # Create a simple tool
-class ExampleTool < MCP::Tool
+class Tools::ExampleTool < MCP::Tool
   description "A simple example tool that echoes back its arguments"
   input_schema(
     properties: {
