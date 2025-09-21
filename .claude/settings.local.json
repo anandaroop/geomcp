@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "mcp__geomcp__bounding_box",
-      "mcp__geomcp__get"
+      "mcp__geomcp__get",
+      "mcp__geomcp__search"
     ]
   },
   "enabledMcpjsonServers": [

@@ -9,7 +9,8 @@ class McpController < ApplicationController
       instructions: "Use for geospatial and cartographic queries",
       tools: [
         Tools::GeoNames::BoundingBox,
-        Tools::GeoNames::Get
+        Tools::GeoNames::Get,
+        Tools::GeoNames::Search
       ]
       # prompts: [MyPrompt],
       # server_context: { user_id: current_user.id },
