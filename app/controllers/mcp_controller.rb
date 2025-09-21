@@ -8,7 +8,6 @@ class McpController < ApplicationController
       version: "1.0.0",
       instructions: "Use for geospatial and cartographic queries",
       tools: [
-        Tools::ExampleTool,
         Tools::GeoNames::BoundingBox
       ]
       # prompts: [MyPrompt],
