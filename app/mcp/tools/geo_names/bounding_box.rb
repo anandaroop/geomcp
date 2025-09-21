@@ -18,7 +18,10 @@ class Tools::GeoNames::BoundingBox < MCP::Tool
   )
 
   class << self
-    def call(country_code:, server_context:)
+    def call(
+      country_code:,
+      server_context: nil
+    )
       north, east, south, west = GeoNames::CountryInfo.search({maxRows: 1, country: country_code})["geonames"][0].values_at("north", "east", "south", "west")
       bbox = {north:, east:, south:, west:}
 

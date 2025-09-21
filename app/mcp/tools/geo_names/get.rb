@@ -72,7 +72,10 @@ class Tools::GeoNames::Get < MCP::Tool
   )
 
   class << self
-    def call(geoname_id:, server_context:)
+    def call(
+      geoname_id:,
+      server_context: nil
+    )
       result = GeoNames::Get.search({geonameId: geoname_id})
 
       output_schema.validate_result(result)
