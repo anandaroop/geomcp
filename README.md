@@ -1,24 +1,48 @@
-# README
+# GeoMCP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An MCP server that aids in geospatial research for cartography projects.
 
-Things you may want to cover:
+## Tools
 
-* Ruby version
+It currently exposes the following tools:
 
-* System dependencies
+- **geonames_country_bounding_box**
+    - Return the bounding box for a given country using the GeoNames API
+- **geonames_get**
+    - Return details for a given toponym using the GeoNames API
+- **geonames_search**
+    - Search for toponyms using the GeoNames API
+- **geojson_preview**
+    - Generate a URL for for previewing research data on http://geojson.io
 
-* Configuration
+## Usage with Claude Code
 
-* Database creation
+This project contains settings for Claude Code that allow it to make smarter use of the MCP server via subagents.
 
-* Database initialization
+### Subagents
 
-* How to run the test suite
+- **place-name-researcher**
+    - Uses the query tools to research place names and return them in a specific CSV format
 
-* Services (job queues, cache servers, search engines, etc.)
+## Cheat Sheet
 
-* Deployment instructions
+```sh
+# start the MCP server
+$ bundle exec rails server
 
-* ...
+# add the MCP server to Claude Code
+$ claude mcp add --scope project --transport http geomcp "http://localhost:3000/mcp"
+
+# launch Claude Code
+$ claude
+
+╭───────────────────────────╮
+│ ✻ Welcome to Claude Code! │
+╰───────────────────────────╯
+
+# request research via the research subagent
+> @place-name-researcher give me a CSV with New Orleans and New York
+
+# preview the results on a globe at http://geojson.io
+> preview those results
+```
