@@ -1,4 +1,5 @@
 class Tools::GeoNames::Search < MCP::Tool
+  tool_name "geonames_search"
   description "Search for toponyms using the GeoNames API"
   input_schema(
     properties: {

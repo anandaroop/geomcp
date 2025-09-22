@@ -1,4 +1,5 @@
 class Tools::GeoNames::BoundingBox < MCP::Tool
+  tool_name "geonames_country_bounding_box"
   description "Return the bounding box for a given country using the GeoNames API"
   input_schema(
     properties: {

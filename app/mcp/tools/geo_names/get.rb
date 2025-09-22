@@ -1,4 +1,5 @@
 class Tools::GeoNames::Get < MCP::Tool
+  tool_name "geonames_get"
   description "Return details for a given toponym using the GeoNames API"
   input_schema(
     properties: {
