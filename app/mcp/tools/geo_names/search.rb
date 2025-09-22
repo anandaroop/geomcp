@@ -7,15 +7,20 @@ class Tools::GeoNames::Search < MCP::Tool
       max_rows: {type: "integer", description: "Maximum number of rows to return (default 10, max 1000)", default: 10, minimum: 1, maximum: 1000},
       start_row: {type: "integer", description: "Row number to start at (for pagination)", default: 0, minimum: 0, maximum: 5000},
       country: {type: "string", description: "ISO 3166-1 alpha-2 country code to restrict the search to a specific country (e.g., 'US' for United States)"},
+      continent_code: {type: "string", description: "Continent code to restrict the search for toponym of the given continent (e.g., 'AF' for Africa, 'EU' for Europe)", enum: ["AF", "AS", "EU", "NA", "OC", "SA", "AN"]},
       feature_class: {
         type: "string",
         description: "Feature class to restrict the search (e.g., 'A' for administrative division, 'H' for hydrography and water features, 'P' for populated place, 'T' for physical terrain)",
         enum: ["A", "H", "L", "P", "R", "S", "T", "U", "V"]
       },
       feature_code: {type: "string", description: "Feature code to restrict the search (e.g. 'ADM1' for first-order administrative division, 'PPLC' for capital of a political entity)"},
+      north: {type: "number", description: "Northernmost coordinate (latitude) to restrict the search to a bounding box", default: 90},
+      east: {type: "number", description: "Easternmost coordinate (longitude) to restrict the search to a bounding box", default: 180},
+      south: {type: "number", description: "Southernmost coordinate (latitude) to restrict the search to a bounding box", default: -90},
+      west: {type: "number", description: "Westernmost coordinate (longitude) to restrict the search to a bounding box", default: -180},
       style: {
         type: "string",
-        description: "Level of detail to return in the response",
+        description: "Level of detail to return in the response. If an expected key is not in the default response, try using a more detailed style.",
         enum: ["FULL", "MEDIUM", "SHORT"],
         default: "MEDIUM"
       }
@@ -107,8 +112,13 @@ class Tools::GeoNames::Search < MCP::Tool
       max_rows: 10,
       start_row: nil,
       country: nil,
+      continent_code: nil,
       feature_class: nil,
       feature_code: nil,
+      north: 90,
+      east: 180,
+      south: -90,
+      west: -180,
       style: nil,
       server_context: nil
     )
@@ -122,8 +132,13 @@ class Tools::GeoNames::Search < MCP::Tool
       criteria[:maxRows] = max_rows if max_rows
       criteria[:startRow] = start_row if start_row
       criteria[:country] = country if country
+      criteria[:continentCode] = continent_code if continent_code
       criteria[:featureClass] = feature_class if feature_class
       criteria[:featureCode] = feature_code if feature_code
+      criteria[:north] = north if north
+      criteria[:east] = east if east
+      criteria[:south] = south if south
+      criteria[:west] = west if west
       criteria[:style] = style if style
 
       result = GeoNames::Search.search(criteria)
