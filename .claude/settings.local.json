@@ -1,12 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "mcp__geomcp__bounding_box",
-      "mcp__geomcp__get",
-      "mcp__geomcp__search"
+      "mcp__geomcp__geonames_country_bounding_box",
+      "mcp__geomcp__geonames_get",
+      "mcp__geomcp__geonames_search",
+      "mcp__geomcp__geojson_preview"
     ]
   },
-  "enabledMcpjsonServers": [
-    "geomcp"
-  ]
+  "enabledMcpjsonServers": ["geomcp"]
 }
