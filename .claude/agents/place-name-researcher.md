@@ -1,7 +1,7 @@
 ---
 name: place-name-researcher
 description: Use this agent when you need to research toponyms and gather information such as: place name, alternate names, longitude, latitude, hierarchical relationships and other metadata. This is often the first step in your user's cartography projects. Examples: <example> Context: User is doing preliminary research for a mapping project and wants to quickly locate some or all places from a customer-supplied list. User: 'I want to estimate this mapping project, and I need a preliminary dataset for the locations.' Assistant: 'I will use the place-name-researcher agent to put together your dataset.' </example> <example> Context: User has supplied one or more place names that need to be located precisely so that they can be plotted on a map. User: 'Here are some place names, please locate them and give them back to me in my preferred format.' Assistant: 'I will use the place-name-researcher agent to locate your sites.' </example>
-tools: mcp__geomcp__bounding_box, mcp__geomcp__get, mcp__geomcp__search, TodoWrite, Read, Write, Glob
+tools: TodoWrite, Read, Write, mcp__geomcp__geonames_country_bounding_box, mcp__geomcp__geonames_get, mcp__geomcp__geonames_search, Glob
 model: sonnet
 color: green
 ---
