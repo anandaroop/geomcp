@@ -11,13 +11,27 @@ class Tools::Wikipedia::GetPage < MCP::Tool
     type: "object",
     properties: {
       ns: {type: "number", description: "Namespace of the page"},
-      title: {type: "string", description: "Title of the Wikipedia page"},
       pageid: {type: "number", description: "Unique identifier for the Wikipedia page"},
-      snippet: {type: "string", description: "A snippet of text from the page, with search terms highlighted"}
+      title: {type: "string", description: "Title of the Wikipedia page"},
+      coordinates: {
+        type: "array",
+        description: "Geographical coordinates associated with the page, if available",
+        items: {
+          type: "object",
+          properties: {
+            lat: {type: "number", description: "Latitude"},
+            lon: {type: "number", description: "Longitude"},
+            primary: {type: "string", description: "Indicates if this is the primary coordinate"},
+            globe: {type: "string", description: "The celestial body the coordinates refer to"}
+          },
+          required: ["lat", "lon", "primary", "globe"]
+        }
+      },
+      extract: {type: "string", description: "A snippet of text from the page, with search terms highlighted"}
     }
   )
 
-  class << self
+ class << self
     def call(
       page_id:,
       server_context: nil
