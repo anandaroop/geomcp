@@ -4,8 +4,13 @@
       "mcp__geomcp__geonames_country_bounding_box",
       "mcp__geomcp__geonames_get",
       "mcp__geomcp__geonames_search",
-      "mcp__geomcp__geojson_preview"
+      "mcp__geomcp__geojson_preview",
+      "mcp__geomcp__wikipedia_search",
+      "mcp__geomcp__wikipedia_get_page"
     ]
   },
-  "enabledMcpjsonServers": ["geomcp"]
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "geomcp"
+  ]
 }
