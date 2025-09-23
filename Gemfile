@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "csv"
 gem "dotenv"
 gem "geo_names"
+gem "httparty"
 gem "mcp"
 gem "standard"
 

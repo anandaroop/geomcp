@@ -11,7 +11,9 @@ class McpController < ApplicationController
         Tools::GeoNames::BoundingBox,
         Tools::GeoNames::Get,
         Tools::GeoNames::Search,
-        Tools::GeoJson::Preview
+        Tools::GeoJson::Preview,
+        Tools::Wikipedia::Search,
+        Tools::Wikipedia::GetPage
       ]
       # prompts: [MyPrompt],
       # server_context: { user_id: current_user.id },
