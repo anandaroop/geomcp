@@ -7,13 +7,13 @@ An MCP server that aids in geospatial research for cartography projects.
 It currently exposes the following tools:
 
 - **geonames_country_bounding_box**
-    - Return the bounding box for a given country using the GeoNames API
+  - Return the bounding box for a given country using the GeoNames API
 - **geonames_get**
-    - Return details for a given toponym using the GeoNames API
+  - Return details for a given toponym using the GeoNames API
 - **geonames_search**
-    - Search for toponyms using the GeoNames API
+  - Search for toponyms using the GeoNames API
 - **geojson_preview**
-    - Generate a URL for for previewing research data on http://geojson.io
+  - Generate a URL for for previewing research data on http://geojson.io
 
 ## Usage with Claude Code
 
@@ -22,13 +22,16 @@ This project contains settings for Claude Code that allow it to make smarter use
 ### Subagents
 
 - **place-name-researcher**
-    - Uses the query tools to research place names and return them in a specific CSV format
+  - Uses the query tools to research place names and return them in a specific CSV format
 
 ## Cheat Sheet
 
 ```sh
 # start the MCP server
 $ bundle exec rails server
+
+# run the mcp inspector
+$ npx @modelcontextprotocol/inspector --transport http --server-url http://localhost:3000/mcp
 
 # add the MCP server to Claude Code
 $ claude mcp add --scope project --transport http geomcp "http://localhost:3000/mcp"
