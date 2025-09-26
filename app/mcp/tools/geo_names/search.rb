@@ -146,10 +146,13 @@ class Tools::GeoNames::Search < MCP::Tool
 
       output_schema.validate_result(result)
 
-      MCP::Tool::Response.new([{
-        type: "text",
-        text: result.to_json
-      }])
+      MCP::Tool::Response.new(
+        [{
+          type: "text",
+          text: result.to_json
+        }],
+        structured_content: result
+      )
     end
   end
 end

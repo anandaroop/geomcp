@@ -47,10 +47,13 @@ class Tools::GeoJson::Preview < MCP::Tool
 
       system "open", url if Rails.env.development?
 
-      MCP::Tool::Response.new([{
-        type: "text",
-        text: url
-      }])
+      MCP::Tool::Response.new(
+        [{
+          type: "text",
+          text: result.to_json
+        }],
+        structured_content: result
+      )
     end
   end
 end
