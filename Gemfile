@@ -4,7 +4,7 @@ gem "csv"
 gem "dotenv"
 gem "geo_names"
 gem "httparty"
-gem "mcp"
+gem "mcp", path: "../mcp-ruby-sdk"
 gem "standard"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
