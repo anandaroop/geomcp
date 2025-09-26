@@ -41,6 +41,9 @@ class Tools::GeoJson::Preview < MCP::Tool
       encoded_geojson = CGI.escape(geojson.to_json)
 
       url = "http://geojson.io/#data=data:application/json,#{encoded_geojson}"
+      result = {url: url}
+
+      output_schema.validate_result(result)
 
       system "open", url if Rails.env.development?
 
