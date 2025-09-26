@@ -34,4 +34,5 @@
 /config/master.key
 
 .DS_Store
-toponyms*.csv
+*.csv
+*INPUT.md
