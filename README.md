@@ -14,6 +14,10 @@ It currently exposes the following tools:
   - Search for toponyms using the GeoNames API
 - **geojson_preview**
   - Generate a URL for for previewing research data on http://geojson.io
+- **wikipedia_search**
+  - Search Wikipedia for articles matching a given query
+- **wikipedia_get_page**
+  - Get a Wikipedia page by ID using the Wikipedia API
 
 ## Usage with Claude Code
 
