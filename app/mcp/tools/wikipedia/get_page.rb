@@ -31,7 +31,7 @@ class Tools::Wikipedia::GetPage < MCP::Tool
     }
   )
 
- class << self
+  class << self
     def call(
       page_id:,
       server_context: nil
@@ -40,10 +40,13 @@ class Tools::Wikipedia::GetPage < MCP::Tool
 
       output_schema.validate_result(result)
 
-      MCP::Tool::Response.new([{
-        type: "text",
-        text: result.to_json
-      }])
+      MCP::Tool::Response.new(
+        [{
+          type: "text",
+          text: result.to_json
+        }],
+        structured_content: result
+      )
     end
   end
 end

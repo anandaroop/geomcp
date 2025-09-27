@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/modelcontextprotocol/ruby-sdk.git
+  revision: f7cf080cc0c8be093f40d1983fb0cb78ee649050
+  ref: f7cf080c
+  specs:
+    mcp (0.3.0)
+      json-schema (>= 4.1)
+      json_rpc_handler (~> 0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -167,9 +176,6 @@ GEM
       net-smtp
     marcel (1.1.0)
     matrix (0.4.3)
-    mcp (0.3.0)
-      json-schema (>= 4.1)
-      json_rpc_handler (~> 0.1)
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
@@ -416,7 +422,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kamal
-  mcp
+  mcp!
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.2, >= 8.0.2.1)

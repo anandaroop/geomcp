@@ -4,7 +4,7 @@ gem "csv"
 gem "dotenv"
 gem "geo_names"
 gem "httparty"
-gem "mcp"
+gem "mcp", git: "https://github.com/modelcontextprotocol/ruby-sdk.git", ref: "f7cf080c" # TODO: switch back once #147 is released
 gem "standard"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"

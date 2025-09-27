@@ -28,10 +28,13 @@ class Tools::GeoNames::BoundingBox < MCP::Tool
 
       output_schema.validate_result(bbox)
 
-      MCP::Tool::Response.new([{
-        type: "text",
-        text: bbox.to_json
-      }])
+      MCP::Tool::Response.new(
+        [{
+          type: "text",
+          text: bbox.to_json
+        }],
+        structured_content: bbox
+      )
     end
   end
 end
