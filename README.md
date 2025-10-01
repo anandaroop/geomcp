@@ -53,3 +53,5 @@ $ claude
 # preview the results on a globe at http://geojson.io
 > preview those results
 ```
+
+But it is better utilized now via https://github.com/anandaroop/georesearcher
