@@ -13,7 +13,9 @@ class McpController < ApplicationController
         Tools::GeoNames::Search,
         Tools::GeoJson::Preview,
         Tools::Wikipedia::Search,
-        Tools::Wikipedia::GetPage
+        Tools::Wikipedia::GetPage,
+        Tools::Nominatim::Search
+
       ],
       resources: [
         MCP::Resource.new(
