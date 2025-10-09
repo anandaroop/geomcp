@@ -14,10 +14,33 @@ class McpController < ApplicationController
         Tools::GeoJson::Preview,
         Tools::Wikipedia::Search,
         Tools::Wikipedia::GetPage
+      ],
+      resources: [
+        MCP::Resource.new(
+          uri: "file://data/countries/countries.json",
+          name: "countries-reference",
+          title: "Countries Reference",
+          description: "A JSON array of country objects, each with names, ISO 2 letter codes, and lat/lng center points.",
+          mime_type: "text/plain"
+        )
+
       ]
       # prompts: [MyPrompt],
       # server_context: { user_id: current_user.id },
     )
+
+    server.resources_read_handler do |params|
+      # corresponding file is assumed to exist in app/mcp/resources
+      path = File.join(Rails.root, "app", "mcp", "resources", params[:uri].sub("file://", ""))
+      contents = File.read(path)
+      [{
+        uri: params[:uri],
+        mimeType: "text/plain",
+        text: contents
+      }]
+      # end
+    end
+
     render(json: server.handle_json(request.body.read))
   end
 end

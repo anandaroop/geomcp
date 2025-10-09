@@ -1,0 +1,1546 @@
+[
+  {
+    "countryCode": "AF",
+    "name": "Afghanistan",
+    "fullName": "Islamic Republic of Afghanistan",
+    "lng": "66",
+    "lat": "33",
+    "geonameId": 1149361
+  },
+  {
+    "countryCode": "AL",
+    "name": "Albania",
+    "fullName": "Republic of Albania",
+    "lng": "20",
+    "lat": "41",
+    "geonameId": 783754
+  },
+  {
+    "countryCode": "DZ",
+    "name": "Algeria",
+    "fullName": "People's Democratic Republic of Algeria",
+    "lng": "3",
+    "lat": "28",
+    "geonameId": 2589581
+  },
+  {
+    "countryCode": "AD",
+    "name": "Andorra",
+    "fullName": "Principality of Andorra",
+    "lng": "1.58333",
+    "lat": "42.55",
+    "geonameId": 3041565
+  },
+  {
+    "countryCode": "AO",
+    "name": "Angola",
+    "fullName": "Republic of Angola",
+    "lng": "18.5",
+    "lat": "-12.5",
+    "geonameId": 3351879
+  },
+  {
+    "countryCode": "AG",
+    "name": "Antigua and Barbuda",
+    "fullName": "Antigua and Barbuda",
+    "lng": "-61.8",
+    "lat": "17.05",
+    "geonameId": 3576396
+  },
+  {
+    "countryCode": "AR",
+    "name": "Argentina",
+    "fullName": "Argentine Republic",
+    "lng": "-64",
+    "lat": "-34",
+    "geonameId": 3865483
+  },
+  {
+    "countryCode": "AM",
+    "name": "Armenia",
+    "fullName": "Republic of Armenia",
+    "lng": "45",
+    "lat": "40.25",
+    "geonameId": 174982
+  },
+  {
+    "countryCode": "AU",
+    "name": "Australia",
+    "fullName": "Commonwealth of Australia",
+    "lng": "135",
+    "lat": "-25",
+    "geonameId": 2077456
+  },
+  {
+    "countryCode": "AT",
+    "name": "Austria",
+    "fullName": "Republic of Austria",
+    "lng": "13.33333",
+    "lat": "47.33333",
+    "geonameId": 2782113
+  },
+  {
+    "countryCode": "AZ",
+    "name": "Azerbaijan",
+    "fullName": "Republic of Azerbaijan",
+    "lng": "47.5",
+    "lat": "40.5",
+    "geonameId": 587116
+  },
+  {
+    "countryCode": "BS",
+    "name": "Bahamas",
+    "fullName": "Commonwealth of The Bahamas",
+    "lng": "-77.37122",
+    "lat": "25.04082",
+    "geonameId": 3572887
+  },
+  {
+    "countryCode": "BH",
+    "name": "Bahrain",
+    "fullName": "Kingdom of Bahrain",
+    "lng": "50.55",
+    "lat": "26.03333",
+    "geonameId": 290291
+  },
+  {
+    "countryCode": "BD",
+    "name": "Bangladesh",
+    "fullName": "Bangladesh",
+    "lng": "90",
+    "lat": "24",
+    "geonameId": 1210997
+  },
+  {
+    "countryCode": "BB",
+    "name": "Barbados",
+    "fullName": "Barbados",
+    "lng": "-59.55165",
+    "lat": "13.16453",
+    "geonameId": 3374084
+  },
+  {
+    "countryCode": "BY",
+    "name": "Belarus",
+    "fullName": "Republic of Belarus",
+    "lng": "28",
+    "lat": "53",
+    "geonameId": 630336
+  },
+  {
+    "countryCode": "BE",
+    "name": "Belgium",
+    "fullName": "Kingdom of Belgium",
+    "lng": "4.5",
+    "lat": "50.75",
+    "geonameId": 2802361
+  },
+  {
+    "countryCode": "BZ",
+    "name": "Belize",
+    "fullName": "Belize",
+    "lng": "-88.75",
+    "lat": "17.25",
+    "geonameId": 3582678
+  },
+  {
+    "countryCode": "BJ",
+    "name": "Benin",
+    "fullName": "Republic of Benin",
+    "lng": "2.25",
+    "lat": "9.5",
+    "geonameId": 2395170
+  },
+  {
+    "countryCode": "BT",
+    "name": "Bhutan",
+    "fullName": "Kingdom of Bhutan",
+    "lng": "90.5",
+    "lat": "27.5",
+    "geonameId": 1252634
+  },
+  {
+    "countryCode": "BO",
+    "name": "Bolivia",
+    "fullName": "Plurinational State of Bolivia",
+    "lng": "-65",
+    "lat": "-17",
+    "geonameId": 3923057
+  },
+  {
+    "countryCode": "BA",
+    "name": "Bosnia and Herzegovina",
+    "fullName": "Bosnia and Herzegovina",
+    "lng": "17.83333",
+    "lat": "44.25",
+    "geonameId": 3277605
+  },
+  {
+    "countryCode": "BW",
+    "name": "Botswana",
+    "fullName": "Republic of Botswana",
+    "lng": "24",
+    "lat": "-22",
+    "geonameId": 933860
+  },
+  {
+    "countryCode": "BR",
+    "name": "Brazil",
+    "fullName": "Federative Republic of Brazil",
+    "lng": "-55",
+    "lat": "-10",
+    "geonameId": 3469034
+  },
+  {
+    "countryCode": "BN",
+    "name": "Brunei",
+    "fullName": "Brunei Darussalam",
+    "lng": "114.66667",
+    "lat": "4.5",
+    "geonameId": 1820814
+  },
+  {
+    "countryCode": "BG",
+    "name": "Bulgaria",
+    "fullName": "Republic of Bulgaria",
+    "lng": "25.25",
+    "lat": "42.66667",
+    "geonameId": 732800
+  },
+  {
+    "countryCode": "BF",
+    "name": "Burkina Faso",
+    "fullName": "Burkina Faso",
+    "lng": "-1.66667",
+    "lat": "12.5",
+    "geonameId": 2361809
+  },
+  {
+    "countryCode": "BI",
+    "name": "Burundi",
+    "fullName": "Republic of Burundi",
+    "lng": "30",
+    "lat": "-3.5",
+    "geonameId": 433561
+  },
+  {
+    "countryCode": "CV",
+    "name": "Cabo Verde",
+    "fullName": "Republic of Cabo Verde",
+    "lng": "-24",
+    "lat": "16",
+    "geonameId": 3374766
+  },
+  {
+    "countryCode": "KH",
+    "name": "Cambodia",
+    "fullName": "Kingdom of Cambodia",
+    "lng": "105",
+    "lat": "13",
+    "geonameId": 1831722
+  },
+  {
+    "countryCode": "CM",
+    "name": "Cameroon",
+    "fullName": "Republic of Cameroon",
+    "lng": "12.5",
+    "lat": "6",
+    "geonameId": 2233387
+  },
+  {
+    "countryCode": "CA",
+    "name": "Canada",
+    "fullName": "Canada",
+    "lng": "-113.64258",
+    "lat": "60.10867",
+    "geonameId": 6251999
+  },
+  {
+    "countryCode": "CF",
+    "name": "Central African Republic",
+    "fullName": "Central African Republic",
+    "lng": "21",
+    "lat": "7",
+    "geonameId": 239880
+  },
+  {
+    "countryCode": "TD",
+    "name": "Chad",
+    "fullName": "Republic of Chad",
+    "lng": "19",
+    "lat": "15",
+    "geonameId": 2434508
+  },
+  {
+    "countryCode": "CL",
+    "name": "Chile",
+    "fullName": "Republic of Chile",
+    "lng": "-71",
+    "lat": "-30",
+    "geonameId": 3895114
+  },
+  {
+    "countryCode": "CN",
+    "name": "China",
+    "fullName": "People’s Republic of China",
+    "lng": "105",
+    "lat": "35",
+    "geonameId": 1814991
+  },
+  {
+    "countryCode": "CO",
+    "name": "Colombia",
+    "fullName": "Republic of Colombia",
+    "lng": "-73.25",
+    "lat": "4",
+    "geonameId": 3686110
+  },
+  {
+    "countryCode": "KM",
+    "name": "Comoros",
+    "fullName": "Union of the Comoros",
+    "lng": "44.44553",
+    "lat": "-12.23333",
+    "geonameId": 921929
+  },
+  {
+    "countryCode": "CG",
+    "name": "Congo Republic",
+    "fullName": "Republic of the Congo",
+    "lng": "15.5",
+    "lat": "-1",
+    "geonameId": 2260494
+  },
+  {
+    "countryCode": "CR",
+    "name": "Costa Rica",
+    "fullName": "Republic of Costa Rica",
+    "lng": "-84",
+    "lat": "10",
+    "geonameId": 3624060
+  },
+  {
+    "countryCode": "HR",
+    "name": "Croatia",
+    "fullName": "Republic of Croatia",
+    "lng": "15.5",
+    "lat": "45.16667",
+    "geonameId": 3202326
+  },
+  {
+    "countryCode": "CU",
+    "name": "Cuba",
+    "fullName": "Republic of Cuba",
+    "lng": "-79.5",
+    "lat": "22",
+    "geonameId": 3562981
+  },
+  {
+    "countryCode": "CY",
+    "name": "Cyprus",
+    "fullName": "Republic of Cyprus",
+    "lng": "33",
+    "lat": "35",
+    "geonameId": 146669
+  },
+  {
+    "countryCode": "CZ",
+    "name": "Czechia",
+    "fullName": "Czechia",
+    "lng": "15",
+    "lat": "49.75",
+    "geonameId": 3077311
+  },
+  {
+    "countryCode": "CD",
+    "name": "DR Congo",
+    "fullName": "Democratic Republic of the Congo",
+    "lng": "23.5",
+    "lat": "-2.5",
+    "geonameId": 203312
+  },
+  {
+    "countryCode": "DK",
+    "name": "Denmark",
+    "fullName": "Kingdom of Denmark",
+    "lng": "10",
+    "lat": "56",
+    "geonameId": 2623032
+  },
+  {
+    "countryCode": "DJ",
+    "name": "Djibouti",
+    "fullName": "Republic of Djibouti",
+    "lng": "42.5",
+    "lat": "11.83333",
+    "geonameId": 223816
+  },
+  {
+    "countryCode": "DM",
+    "name": "Dominica",
+    "fullName": "Dominica",
+    "lng": "-61.33333",
+    "lat": "15.5",
+    "geonameId": 3575830
+  },
+  {
+    "countryCode": "DO",
+    "name": "Dominican Republic",
+    "fullName": "Dominican Republic",
+    "lng": "-70.66667",
+    "lat": "19",
+    "geonameId": 3508796
+  },
+  {
+    "countryCode": "EC",
+    "name": "Ecuador",
+    "fullName": "Republic of Ecuador",
+    "lng": "-78.25",
+    "lat": "-1.25",
+    "geonameId": 3658394
+  },
+  {
+    "countryCode": "EG",
+    "name": "Egypt",
+    "fullName": "Arab Republic of Egypt",
+    "lng": "30",
+    "lat": "27",
+    "geonameId": 357994
+  },
+  {
+    "countryCode": "SV",
+    "name": "El Salvador",
+    "fullName": "Republic of El Salvador",
+    "lng": "-88.91667",
+    "lat": "13.83333",
+    "geonameId": 3585968
+  },
+  {
+    "countryCode": "GQ",
+    "name": "Equatorial Guinea",
+    "fullName": "Republic of Equatorial Guinea",
+    "lng": "10.5",
+    "lat": "1.7",
+    "geonameId": 2309096
+  },
+  {
+    "countryCode": "ER",
+    "name": "Eritrea",
+    "fullName": "State of Eritrea",
+    "lng": "39",
+    "lat": "15",
+    "geonameId": 338010
+  },
+  {
+    "countryCode": "EE",
+    "name": "Estonia",
+    "fullName": "Republic of Estonia",
+    "lng": "26",
+    "lat": "59",
+    "geonameId": 453733
+  },
+  {
+    "countryCode": "SZ",
+    "name": "Eswatini",
+    "fullName": "Eswatini",
+    "lng": "31.5",
+    "lat": "-26.5",
+    "geonameId": 934841
+  },
+  {
+    "countryCode": "ET",
+    "name": "Ethiopia",
+    "fullName": "Federal Democratic Republic of Ethiopia",
+    "lng": "39.5",
+    "lat": "9",
+    "geonameId": 337996
+  },
+  {
+    "countryCode": "FJ",
+    "name": "Fiji",
+    "fullName": "Viti",
+    "lng": "178",
+    "lat": "-18",
+    "geonameId": 2205218
+  },
+  {
+    "countryCode": "FI",
+    "name": "Finland",
+    "fullName": "Republic of Finland",
+    "lng": "26",
+    "lat": "64",
+    "geonameId": 660013
+  },
+  {
+    "countryCode": "FR",
+    "name": "France",
+    "fullName": "Republic of France",
+    "lng": "2",
+    "lat": "46",
+    "geonameId": 3017382
+  },
+  {
+    "countryCode": "GA",
+    "name": "Gabon",
+    "fullName": "Gabonese Republic",
+    "lng": "11.75",
+    "lat": "-1",
+    "geonameId": 2400553
+  },
+  {
+    "countryCode": "GE",
+    "name": "Georgia",
+    "fullName": "Georgia",
+    "lng": "43.4999",
+    "lat": "41.99998",
+    "geonameId": 614540
+  },
+  {
+    "countryCode": "DE",
+    "name": "Germany",
+    "fullName": "Federal Republic of Germany",
+    "lng": "10.5",
+    "lat": "51.5",
+    "geonameId": 2921044
+  },
+  {
+    "countryCode": "GH",
+    "name": "Ghana",
+    "fullName": "Republic of Ghana",
+    "lng": "-1.2",
+    "lat": "8.1",
+    "geonameId": 2300660
+  },
+  {
+    "countryCode": "GR",
+    "name": "Greece",
+    "fullName": "Hellenic Republic",
+    "lng": "22",
+    "lat": "39",
+    "geonameId": 390903
+  },
+  {
+    "countryCode": "GD",
+    "name": "Grenada",
+    "fullName": "Grenada",
+    "lng": "-61.66667",
+    "lat": "12.11667",
+    "geonameId": 3580239
+  },
+  {
+    "countryCode": "GT",
+    "name": "Guatemala",
+    "fullName": "Republic of Guatemala",
+    "lng": "-90.25",
+    "lat": "15.5",
+    "geonameId": 3595528
+  },
+  {
+    "countryCode": "GN",
+    "name": "Guinea",
+    "fullName": "Republic of Guinea",
+    "lng": "-10.66667",
+    "lat": "10.83333",
+    "geonameId": 2420477
+  },
+  {
+    "countryCode": "GW",
+    "name": "Guinea-Bissau",
+    "fullName": "Republic of Guinea-Bissau",
+    "lng": "-15",
+    "lat": "12",
+    "geonameId": 2372248
+  },
+  {
+    "countryCode": "GY",
+    "name": "Guyana",
+    "fullName": "Co-operative Republic of Guyana",
+    "lng": "-59",
+    "lat": "5",
+    "geonameId": 3378535
+  },
+  {
+    "countryCode": "HT",
+    "name": "Haiti",
+    "fullName": "Republic of Haiti",
+    "lng": "-72.29616",
+    "lat": "19.07582",
+    "geonameId": 3723988
+  },
+  {
+    "countryCode": "HN",
+    "name": "Honduras",
+    "fullName": "Republic of Honduras",
+    "lng": "-86.5",
+    "lat": "15",
+    "geonameId": 3608932
+  },
+  {
+    "countryCode": "HU",
+    "name": "Hungary",
+    "fullName": "Hungary",
+    "lng": "20",
+    "lat": "47",
+    "geonameId": 719819
+  },
+  {
+    "countryCode": "IS",
+    "name": "Iceland",
+    "fullName": "Iceland",
+    "lng": "-18",
+    "lat": "65",
+    "geonameId": 2629691
+  },
+  {
+    "countryCode": "IN",
+    "name": "India",
+    "fullName": "Republic of India",
+    "lng": "79",
+    "lat": "22",
+    "geonameId": 1269750
+  },
+  {
+    "countryCode": "ID",
+    "name": "Indonesia",
+    "fullName": "Republic of Indonesia",
+    "lng": "120",
+    "lat": "-5",
+    "geonameId": 1643084
+  },
+  {
+    "countryCode": "IR",
+    "name": "Iran",
+    "fullName": "Islamic Republic of Iran",
+    "lng": "53",
+    "lat": "32",
+    "geonameId": 130758
+  },
+  {
+    "countryCode": "IQ",
+    "name": "Iraq",
+    "fullName": "Republic of Iraq",
+    "lng": "44",
+    "lat": "33",
+    "geonameId": 99237
+  },
+  {
+    "countryCode": "IE",
+    "name": "Ireland",
+    "fullName": "Ireland",
+    "lng": "-8",
+    "lat": "53",
+    "geonameId": 2963597
+  },
+  {
+    "countryCode": "IL",
+    "name": "Israel",
+    "fullName": "State of Israel",
+    "lng": "34.75",
+    "lat": "31.5",
+    "geonameId": 294640
+  },
+  {
+    "countryCode": "IT",
+    "name": "Italy",
+    "fullName": "Italian Republic",
+    "lng": "12.83333",
+    "lat": "42.83333",
+    "geonameId": 3175395
+  },
+  {
+    "countryCode": "CI",
+    "name": "Ivory Coast",
+    "fullName": "Republic of Côte d’Ivoire",
+    "lng": "-5.5",
+    "lat": "8",
+    "geonameId": 2287781
+  },
+  {
+    "countryCode": "JM",
+    "name": "Jamaica",
+    "fullName": "Jamaica",
+    "lng": "-77.25",
+    "lat": "18.16667",
+    "geonameId": 3489940
+  },
+  {
+    "countryCode": "JP",
+    "name": "Japan",
+    "fullName": "Japan",
+    "lng": "139.75309",
+    "lat": "35.68536",
+    "geonameId": 1861060
+  },
+  {
+    "countryCode": "JO",
+    "name": "Jordan",
+    "fullName": "Hashemite Kingdom of Jordan",
+    "lng": "36",
+    "lat": "31",
+    "geonameId": 248816
+  },
+  {
+    "countryCode": "KZ",
+    "name": "Kazakhstan",
+    "fullName": "Republic of Kazakhstan",
+    "lng": "68",
+    "lat": "48",
+    "geonameId": 1522867
+  },
+  {
+    "countryCode": "KE",
+    "name": "Kenya",
+    "fullName": "Republic of Kenya",
+    "lng": "38",
+    "lat": "1",
+    "geonameId": 192950
+  },
+  {
+    "countryCode": "KI",
+    "name": "Kiribati",
+    "fullName": "Republic of Kiribati",
+    "lng": "172.984",
+    "lat": "1.421",
+    "geonameId": 4030945
+  },
+  {
+    "countryCode": "XK",
+    "name": "Kosovo",
+    "fullName": "Republic of Kosovo",
+    "lng": "20.91667",
+    "lat": "42.58333",
+    "geonameId": 831053
+  },
+  {
+    "countryCode": "KW",
+    "name": "Kuwait",
+    "fullName": "State of Kuwait",
+    "lng": "47.75",
+    "lat": "29.5",
+    "geonameId": 285570
+  },
+  {
+    "countryCode": "KG",
+    "name": "Kyrgyzstan",
+    "fullName": "Kyrgyz Republic",
+    "lng": "75",
+    "lat": "41.5",
+    "geonameId": 1527747
+  },
+  {
+    "countryCode": "LA",
+    "name": "Laos",
+    "fullName": "Lao People’s Democratic Republic",
+    "lng": "105",
+    "lat": "18",
+    "geonameId": 1655842
+  },
+  {
+    "countryCode": "LV",
+    "name": "Latvia",
+    "fullName": "Republic of Latvia",
+    "lng": "25",
+    "lat": "57",
+    "geonameId": 458258
+  },
+  {
+    "countryCode": "LB",
+    "name": "Lebanon",
+    "fullName": "Lebanon",
+    "lng": "35.83333",
+    "lat": "33.83333",
+    "geonameId": 272103
+  },
+  {
+    "countryCode": "LS",
+    "name": "Lesotho",
+    "fullName": "Kingdom of Lesotho",
+    "lng": "28.25",
+    "lat": "-29.5",
+    "geonameId": 932692
+  },
+  {
+    "countryCode": "LR",
+    "name": "Liberia",
+    "fullName": "Republic of Liberia",
+    "lng": "-9.5",
+    "lat": "6.5",
+    "geonameId": 2275384
+  },
+  {
+    "countryCode": "LY",
+    "name": "Libya",
+    "fullName": "Libya",
+    "lng": "17",
+    "lat": "28",
+    "geonameId": 2215636
+  },
+  {
+    "countryCode": "LI",
+    "name": "Liechtenstein",
+    "fullName": "Principality of Liechtenstein",
+    "lng": "9.53333",
+    "lat": "47.16667",
+    "geonameId": 3042058
+  },
+  {
+    "countryCode": "LT",
+    "name": "Lithuania",
+    "fullName": "Republic of Lithuania",
+    "lng": "24",
+    "lat": "55.41667",
+    "geonameId": 597427
+  },
+  {
+    "countryCode": "LU",
+    "name": "Luxembourg",
+    "fullName": "Grand Duchy of Luxembourg",
+    "lng": "6.16667",
+    "lat": "49.75",
+    "geonameId": 2960313
+  },
+  {
+    "countryCode": "MG",
+    "name": "Madagascar",
+    "fullName": "Republic of Madagascar",
+    "lng": "47",
+    "lat": "-20",
+    "geonameId": 1062947
+  },
+  {
+    "countryCode": "MW",
+    "name": "Malawi",
+    "fullName": "Republic of Malawi",
+    "lng": "34",
+    "lat": "-13.5",
+    "geonameId": 927384
+  },
+  {
+    "countryCode": "MY",
+    "name": "Malaysia",
+    "fullName": "Malaysia",
+    "lng": "112.5",
+    "lat": "2.5",
+    "geonameId": 1733045
+  },
+  {
+    "countryCode": "MV",
+    "name": "Maldives",
+    "fullName": "Republic of Maldives",
+    "lng": "73",
+    "lat": "3.2",
+    "geonameId": 1282028
+  },
+  {
+    "countryCode": "ML",
+    "name": "Mali",
+    "fullName": "Republic of Mali",
+    "lng": "-2",
+    "lat": "18",
+    "geonameId": 2453866
+  },
+  {
+    "countryCode": "MT",
+    "name": "Malta",
+    "fullName": "Republic of Malta",
+    "lng": "14.43333",
+    "lat": "35.91667",
+    "geonameId": 2562770
+  },
+  {
+    "countryCode": "MR",
+    "name": "Mauritania",
+    "fullName": "Islamic Republic of Mauritania",
+    "lng": "-10.5",
+    "lat": "20.25",
+    "geonameId": 2378080
+  },
+  {
+    "countryCode": "MU",
+    "name": "Mauritius",
+    "fullName": "Republic of Mauritius",
+    "lng": "57.58333",
+    "lat": "-20.3",
+    "geonameId": 934292
+  },
+  {
+    "countryCode": "MX",
+    "name": "Mexico",
+    "fullName": "Mexico",
+    "lng": "-102",
+    "lat": "23",
+    "geonameId": 3996063
+  },
+  {
+    "countryCode": "MD",
+    "name": "Moldova",
+    "fullName": "Republic of Moldova",
+    "lng": "28.58333",
+    "lat": "47.25",
+    "geonameId": 617790
+  },
+  {
+    "countryCode": "MC",
+    "name": "Monaco",
+    "fullName": "Principality of Monaco",
+    "lng": "7.41903",
+    "lat": "43.73141",
+    "geonameId": 2993457
+  },
+  {
+    "countryCode": "MN",
+    "name": "Mongolia",
+    "fullName": "Mongolia",
+    "lng": "105",
+    "lat": "46",
+    "geonameId": 2029969
+  },
+  {
+    "countryCode": "ME",
+    "name": "Montenegro",
+    "fullName": "Montenegro",
+    "lng": "19.25",
+    "lat": "42.75",
+    "geonameId": 3194884
+  },
+  {
+    "countryCode": "MA",
+    "name": "Morocco",
+    "fullName": "Kingdom of Morocco",
+    "lng": "-10",
+    "lat": "28.5",
+    "geonameId": 2542007
+  },
+  {
+    "countryCode": "MZ",
+    "name": "Mozambique",
+    "fullName": "Republic of Mozambique",
+    "lng": "35",
+    "lat": "-18.25",
+    "geonameId": 1036973
+  },
+  {
+    "countryCode": "MM",
+    "name": "Myanmar",
+    "fullName": "Union of Burma",
+    "lng": "96",
+    "lat": "21",
+    "geonameId": 1327865
+  },
+  {
+    "countryCode": "NA",
+    "name": "Namibia",
+    "fullName": "Republic of Namibia",
+    "lng": "17",
+    "lat": "-22",
+    "geonameId": 3355338
+  },
+  {
+    "countryCode": "NR",
+    "name": "Nauru",
+    "fullName": "Nauru",
+    "lng": "166.933",
+    "lat": "-0.517",
+    "geonameId": 2110425
+  },
+  {
+    "countryCode": "NP",
+    "name": "Nepal",
+    "fullName": "Nepal",
+    "lng": "84",
+    "lat": "28",
+    "geonameId": 1282988
+  },
+  {
+    "countryCode": "NZ",
+    "name": "New Zealand",
+    "fullName": "New Zealand",
+    "lng": "174",
+    "lat": "-42",
+    "geonameId": 2186224
+  },
+  {
+    "countryCode": "NI",
+    "name": "Nicaragua",
+    "fullName": "Republic of Nicaragua",
+    "lng": "-85",
+    "lat": "13",
+    "geonameId": 3617476
+  },
+  {
+    "countryCode": "NE",
+    "name": "Niger",
+    "fullName": "Republic of Niger",
+    "lng": "9",
+    "lat": "18",
+    "geonameId": 2440476
+  },
+  {
+    "countryCode": "NG",
+    "name": "Nigeria",
+    "fullName": "Federal Republic of Nigeria",
+    "lng": "8",
+    "lat": "10",
+    "geonameId": 2328926
+  },
+  {
+    "countryCode": "KP",
+    "name": "North Korea",
+    "fullName": "Democratic People’s Republic of Korea",
+    "lng": "127",
+    "lat": "40",
+    "geonameId": 1873107
+  },
+  {
+    "countryCode": "MK",
+    "name": "North Macedonia",
+    "fullName": "North Macedonia",
+    "lng": "21.75",
+    "lat": "41.66667",
+    "geonameId": 718075
+  },
+  {
+    "countryCode": "NO",
+    "name": "Norway",
+    "fullName": "Kingdom of Norway",
+    "lng": "10",
+    "lat": "62",
+    "geonameId": 3144096
+  },
+  {
+    "countryCode": "OM",
+    "name": "Oman",
+    "fullName": "Sultanate of Oman",
+    "lng": "57",
+    "lat": "21",
+    "geonameId": 286963
+  },
+  {
+    "countryCode": "PK",
+    "name": "Pakistan",
+    "fullName": "Islamic Republic of Pakistan",
+    "lng": "70",
+    "lat": "30",
+    "geonameId": 1168579
+  },
+  {
+    "countryCode": "PA",
+    "name": "Panama",
+    "fullName": "Republic of Panama",
+    "lng": "-80",
+    "lat": "9",
+    "geonameId": 3703430
+  },
+  {
+    "countryCode": "PG",
+    "name": "Papua New Guinea",
+    "fullName": "Independent State of Papua New Guinea",
+    "lng": "147",
+    "lat": "-6",
+    "geonameId": 2088628
+  },
+  {
+    "countryCode": "PY",
+    "name": "Paraguay",
+    "fullName": "Republic of Paraguay",
+    "lng": "-58",
+    "lat": "-23.33333",
+    "geonameId": 3437598
+  },
+  {
+    "countryCode": "PE",
+    "name": "Peru",
+    "fullName": "Republic of Peru",
+    "lng": "-75.25",
+    "lat": "-10",
+    "geonameId": 3932488
+  },
+  {
+    "countryCode": "PH",
+    "name": "Philippines",
+    "fullName": "Republic of the Philippines",
+    "lng": "122.56155",
+    "lat": "13.40882",
+    "geonameId": 1694008
+  },
+  {
+    "countryCode": "PL",
+    "name": "Poland",
+    "fullName": "Republic of Poland",
+    "lng": "20",
+    "lat": "52",
+    "geonameId": 798544
+  },
+  {
+    "countryCode": "PT",
+    "name": "Portugal",
+    "fullName": "Portuguese Republic",
+    "lng": "-8.13057",
+    "lat": "39.6945",
+    "geonameId": 2264397
+  },
+  {
+    "countryCode": "QA",
+    "name": "Qatar",
+    "fullName": "State of Qatar",
+    "lng": "51.25",
+    "lat": "25.5",
+    "geonameId": 289688
+  },
+  {
+    "countryCode": "RO",
+    "name": "Romania",
+    "fullName": "România",
+    "lng": "25",
+    "lat": "46",
+    "geonameId": 798549
+  },
+  {
+    "countryCode": "RU",
+    "name": "Russia",
+    "fullName": "Russian Federation",
+    "lng": "100",
+    "lat": "60",
+    "geonameId": 2017370
+  },
+  {
+    "countryCode": "RW",
+    "name": "Rwanda",
+    "fullName": "Republic of Rwanda",
+    "lng": "30",
+    "lat": "-2",
+    "geonameId": 49518
+  },
+  {
+    "countryCode": "LC",
+    "name": "Saint Lucia",
+    "fullName": "Saint Lucia",
+    "lng": "-60.96667",
+    "lat": "13.88333",
+    "geonameId": 3576468
+  },
+  {
+    "countryCode": "WS",
+    "name": "Samoa",
+    "fullName": "Independent State of Samoa",
+    "lng": "-172.13333",
+    "lat": "-13.8",
+    "geonameId": 4034894
+  },
+  {
+    "countryCode": "SM",
+    "name": "San Marino",
+    "fullName": "Repubblica di San Marino",
+    "lng": "12.4463",
+    "lat": "43.9367",
+    "geonameId": 3168068
+  },
+  {
+    "countryCode": "SA",
+    "name": "Saudi Arabia",
+    "fullName": "Kingdom of Saudi Arabia",
+    "lng": "45",
+    "lat": "25",
+    "geonameId": 102358
+  },
+  {
+    "countryCode": "SN",
+    "name": "Senegal",
+    "fullName": "Republic of Senegal",
+    "lng": "-14.25",
+    "lat": "14.5",
+    "geonameId": 2245662
+  },
+  {
+    "countryCode": "RS",
+    "name": "Serbia",
+    "fullName": "Serbia",
+    "lng": "20.45998",
+    "lat": "44.81892",
+    "geonameId": 6290252
+  },
+  {
+    "countryCode": "SC",
+    "name": "Seychelles",
+    "fullName": "Republic of Seychelles",
+    "lng": "55.66667",
+    "lat": "-4.58333",
+    "geonameId": 241170
+  },
+  {
+    "countryCode": "SL",
+    "name": "Sierra Leone",
+    "fullName": "Republic of Sierra Leone",
+    "lng": "-11.5",
+    "lat": "8.5",
+    "geonameId": 2403846
+  },
+  {
+    "countryCode": "SG",
+    "name": "Singapore",
+    "fullName": "Republic of Singapore",
+    "lng": "103.8",
+    "lat": "1.36667",
+    "geonameId": 1880251
+  },
+  {
+    "countryCode": "SK",
+    "name": "Slovakia",
+    "fullName": "Slovak Republic",
+    "lng": "19.5",
+    "lat": "48.66667",
+    "geonameId": 3057568
+  },
+  {
+    "countryCode": "SI",
+    "name": "Slovenia",
+    "fullName": "Republic of Slovenia",
+    "lng": "15",
+    "lat": "46.08333",
+    "geonameId": 3190538
+  },
+  {
+    "countryCode": "SB",
+    "name": "Solomon Islands",
+    "fullName": "Solomon Islands",
+    "lng": "159",
+    "lat": "-8",
+    "geonameId": 2103350
+  },
+  {
+    "countryCode": "SO",
+    "name": "Somalia",
+    "fullName": "Somalia",
+    "lng": "48",
+    "lat": "6",
+    "geonameId": 51537
+  },
+  {
+    "countryCode": "ZA",
+    "name": "South Africa",
+    "fullName": "South Africa",
+    "lng": "24",
+    "lat": "-29",
+    "geonameId": 953987
+  },
+  {
+    "countryCode": "KR",
+    "name": "South Korea",
+    "fullName": "Republic of Korea",
+    "lng": "127.75",
+    "lat": "36.5",
+    "geonameId": 1835841
+  },
+  {
+    "countryCode": "SS",
+    "name": "South Sudan",
+    "fullName": "South Sudan",
+    "lng": "30",
+    "lat": "7.5",
+    "geonameId": 7909807
+  },
+  {
+    "countryCode": "ES",
+    "name": "Spain",
+    "fullName": "Kingdom of Spain",
+    "lng": "-4",
+    "lat": "40",
+    "geonameId": 2510769
+  },
+  {
+    "countryCode": "LK",
+    "name": "Sri Lanka",
+    "fullName": "Democratic Socialist Republic of Sri Lanka",
+    "lng": "80.75",
+    "lat": "7.75",
+    "geonameId": 1227603
+  },
+  {
+    "countryCode": "KN",
+    "name": "St Kitts and Nevis",
+    "fullName": "Federation of Saint Kitts and Nevis",
+    "lng": "-62.75",
+    "lat": "17.33333",
+    "geonameId": 3575174
+  },
+  {
+    "countryCode": "VC",
+    "name": "St Vincent and Grenadines",
+    "fullName": "Saint Vincent and the Grenadines",
+    "lng": "-61.2",
+    "lat": "13.08333",
+    "geonameId": 3577815
+  },
+  {
+    "countryCode": "SD",
+    "name": "Sudan",
+    "fullName": "Republic of the Sudan",
+    "lng": "30",
+    "lat": "16",
+    "geonameId": 366755
+  },
+  {
+    "countryCode": "SR",
+    "name": "Suriname",
+    "fullName": "Republic of Suriname",
+    "lng": "-56",
+    "lat": "4",
+    "geonameId": 3382998
+  },
+  {
+    "countryCode": "SE",
+    "name": "Sweden",
+    "fullName": "Kingdom of Sweden",
+    "lng": "15",
+    "lat": "62",
+    "geonameId": 2661886
+  },
+  {
+    "countryCode": "CH",
+    "name": "Switzerland",
+    "fullName": "Switzerland",
+    "lng": "8.01427",
+    "lat": "47.00016",
+    "geonameId": 2658434
+  },
+  {
+    "countryCode": "SY",
+    "name": "Syria",
+    "fullName": "Syrian Arab Republic",
+    "lng": "38",
+    "lat": "35",
+    "geonameId": 163843
+  },
+  {
+    "countryCode": "ST",
+    "name": "São Tomé and Príncipe",
+    "fullName": "Sao Tome and Principe",
+    "lng": "7",
+    "lat": "1",
+    "geonameId": 2410758
+  },
+  {
+    "countryCode": "TW",
+    "name": "Taiwan",
+    "fullName": "Taiwan",
+    "lng": "121",
+    "lat": "24",
+    "geonameId": 1668284
+  },
+  {
+    "countryCode": "TJ",
+    "name": "Tajikistan",
+    "fullName": "Republic of Tajikistan",
+    "lng": "71",
+    "lat": "39",
+    "geonameId": 1220409
+  },
+  {
+    "countryCode": "TZ",
+    "name": "Tanzania",
+    "fullName": "United Republic of Tanzania",
+    "lng": "35",
+    "lat": "-6",
+    "geonameId": 149590
+  },
+  {
+    "countryCode": "TH",
+    "name": "Thailand",
+    "fullName": "Kingdom of Thailand",
+    "lng": "101",
+    "lat": "15.5",
+    "geonameId": 1605651
+  },
+  {
+    "countryCode": "GM",
+    "name": "The Gambia",
+    "fullName": "Gambia",
+    "lng": "-15.5",
+    "lat": "13.5",
+    "geonameId": 2413451
+  },
+  {
+    "countryCode": "NL",
+    "name": "The Netherlands",
+    "fullName": "Kingdom of the Netherlands",
+    "lng": "5.75",
+    "lat": "52.25",
+    "geonameId": 2750405
+  },
+  {
+    "countryCode": "TL",
+    "name": "Timor-Leste",
+    "fullName": "Democratic Republic of Timor-Leste",
+    "lng": "125.75",
+    "lat": "-8.83333",
+    "geonameId": 1966436
+  },
+  {
+    "countryCode": "TG",
+    "name": "Togo",
+    "fullName": "Togolese Republic",
+    "lng": "1.08333",
+    "lat": "8.66667",
+    "geonameId": 2363686
+  },
+  {
+    "countryCode": "TO",
+    "name": "Tonga",
+    "fullName": "Kingdom of Tonga",
+    "lng": "-175",
+    "lat": "-20",
+    "geonameId": 4032283
+  },
+  {
+    "countryCode": "TT",
+    "name": "Trinidad and Tobago",
+    "fullName": "Republic of Trinidad and Tobago",
+    "lng": "-61",
+    "lat": "11",
+    "geonameId": 3573591
+  },
+  {
+    "countryCode": "TN",
+    "name": "Tunisia",
+    "fullName": "Republic of Tunisia",
+    "lng": "9",
+    "lat": "34",
+    "geonameId": 2464461
+  },
+  {
+    "countryCode": "TM",
+    "name": "Turkmenistan",
+    "fullName": "Turkmenistan",
+    "lng": "59.66667",
+    "lat": "39.75",
+    "geonameId": 1218197
+  },
+  {
+    "countryCode": "TV",
+    "name": "Tuvalu",
+    "fullName": "Tuvalu",
+    "lng": "179.14478",
+    "lat": "-8.51719",
+    "geonameId": 2110297
+  },
+  {
+    "countryCode": "TR",
+    "name": "Türkiye",
+    "fullName": "Republic of Turkey",
+    "lng": "35",
+    "lat": "39",
+    "geonameId": 298795
+  },
+  {
+    "countryCode": "UG",
+    "name": "Uganda",
+    "fullName": "Republic of Uganda",
+    "lng": "32.5",
+    "lat": "1.25",
+    "geonameId": 226074
+  },
+  {
+    "countryCode": "UA",
+    "name": "Ukraine",
+    "fullName": "Ukraine",
+    "lng": "32",
+    "lat": "49",
+    "geonameId": 690791
+  },
+  {
+    "countryCode": "AE",
+    "name": "United Arab Emirates",
+    "fullName": "United Arab Emirates",
+    "lng": "54.5",
+    "lat": "23.75",
+    "geonameId": 290557
+  },
+  {
+    "countryCode": "GB",
+    "name": "United Kingdom",
+    "fullName": "United Kingdom of Great Britain and Northern Ireland",
+    "lng": "-2.69531",
+    "lat": "54.75844",
+    "geonameId": 2635167
+  },
+  {
+    "countryCode": "US",
+    "name": "United States",
+    "fullName": "United States",
+    "lng": "-98.5",
+    "lat": "39.76",
+    "geonameId": 6252001
+  },
+  {
+    "countryCode": "UY",
+    "name": "Uruguay",
+    "fullName": "Oriental Republic of Uruguay",
+    "lng": "-56",
+    "lat": "-33",
+    "geonameId": 3439705
+  },
+  {
+    "countryCode": "UZ",
+    "name": "Uzbekistan",
+    "fullName": "Republic of Uzbekistan",
+    "lng": "63.83333",
+    "lat": "41.66667",
+    "geonameId": 1512440
+  },
+  {
+    "countryCode": "VU",
+    "name": "Vanuatu",
+    "fullName": "Republic of Vanuatu",
+    "lng": "167.5",
+    "lat": "-16.3333",
+    "geonameId": 2134431
+  },
+  {
+    "countryCode": "VA",
+    "name": "Vatican City",
+    "fullName": "State of the Vatican City",
+    "lng": "12.4533",
+    "lat": "41.90225",
+    "geonameId": 3164670
+  },
+  {
+    "countryCode": "VE",
+    "name": "Venezuela",
+    "fullName": "Bolivarian Republic of Venezuela",
+    "lng": "-66",
+    "lat": "8",
+    "geonameId": 3625428
+  },
+  {
+    "countryCode": "VN",
+    "name": "Vietnam",
+    "fullName": "Socialist Republic of Vietnam",
+    "lng": "107.83333",
+    "lat": "16.16667",
+    "geonameId": 1562822
+  },
+  {
+    "countryCode": "YE",
+    "name": "Yemen",
+    "fullName": "Republic of Yemen",
+    "lng": "47.5",
+    "lat": "15.5",
+    "geonameId": 69543
+  },
+  {
+    "countryCode": "ZM",
+    "name": "Zambia",
+    "fullName": "Republic of Zambia",
+    "lng": "28.5",
+    "lat": "-14.33333",
+    "geonameId": 895949
+  },
+  {
+    "countryCode": "ZW",
+    "name": "Zimbabwe",
+    "fullName": "Republic of Zimbabwe",
+    "lng": "29.75",
+    "lat": "-19",
+    "geonameId": 878675
+  }
+]
