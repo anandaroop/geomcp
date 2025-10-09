@@ -18,17 +18,21 @@ It currently exposes the following tools:
   - Search Wikipedia for articles matching a given query
 - **wikipedia_get_page**
   - Get a Wikipedia page by ID using the Wikipedia API
+- **nominatim_search**
+  - Search for toponyms using the OSM' Nominatim API
 
 ## Usage with Claude Code
 
-This project contains settings for Claude Code that allow it to make smarter use of the MCP server via subagents.
+`geomcp` can be added as an MCP server to Claude Code.
+
+This project also contains settings that allow Claude Code use the MCP server in a specific way via subagents.
 
 ### Subagents
 
 - **place-name-researcher**
-  - Uses the query tools to research place names and return them in a specific CSV format
+  - Uses the query tools to research place names and return them in a specific CSV format that I have used historically
 
-## Cheat Sheet
+### Cheat Sheet
 
 ```sh
 # start the MCP server
@@ -54,4 +58,6 @@ $ claude
 > preview those results
 ```
 
-But it is better utilized now via https://github.com/anandaroop/georesearcher
+## Usage with `georesearch`
+
+My preferred way to use this is via a separate custom-built CLI at https://github.com/anandaroop/georesearch.
