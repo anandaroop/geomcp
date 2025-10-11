@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+# Activate mise to ensure correct Ruby version is loaded
+eval "$(/opt/homebrew/bin/mise activate zsh)"
+
+cd /Users/roop/src/me/geomcp
+PORT=3003 bundle exec rake stdio
