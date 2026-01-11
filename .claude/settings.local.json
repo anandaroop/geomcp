@@ -9,7 +9,9 @@
       "mcp__geomcp__wikipedia_get_page",
       "mcp__geomcp__nominatim_search",
       "Skill(creating-basemaps)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(ne:*)",
+      "Bash(open:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
