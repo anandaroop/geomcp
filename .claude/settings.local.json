@@ -7,9 +7,13 @@
       "mcp__geomcp__geojson_preview",
       "mcp__geomcp__wikipedia_search",
       "mcp__geomcp__wikipedia_get_page",
-      "mcp__geomcp__nominatim_search"
+      "mcp__geomcp__nominatim_search",
+      "Skill(creating-basemaps)",
+      "Bash(ls:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": ["geomcp"]
+  "enabledMcpjsonServers": [
+    "geomcp"
+  ]
 }

@@ -7,22 +7,28 @@ description: Generate a vector basemap of a given region with physical features 
 
 You will write a temporary script to extract the necessary data to a folder in the current working directory.
 
-Use the following checklist to track your work:
+Use the following checklist to track your workflow:
 
 ```
-- [ ] Determine the the appropriate data resolution
-- [ ] Determine the requested extent and buffer it by 20%
-- [ ] Ensure a unique destination folder name (append a simple serial number if needed)
-- [ ] Confirm the resolution & extent & folder name
+- [ ] Determine the appropriate data resolution
+- [ ] Determine the requested extent
+- [ ] Determine destination folder name
 - [ ] Write the extraction script
 - [ ] Run the extraction script
 ```
 
-## Data
+## General info
 
-- Basemaps are generated from the Natural Earth dataset (https://www.naturalearthdata.com)
+- **Data**: Basemaps are generated from the Natural Earth dataset (https://www.naturalearthdata.com)
 
-- A local copy is stored at `/Users/Shared/Geodata/ne`
+  - A local copy is stored at `/Users/Shared/Geodata/ne`
+
+- **Tools**: Data is extracted using the command line tool `ogr2ogr` from GDAL (https://gdal.org)
+  - GDAL is already installed locally
+
+## Workflow
+
+### Determine the appropriate data resolution
 
 - The following data resolutions are available
 
@@ -49,13 +55,15 @@ Use the following checklist to track your work:
   - Others
     - if other layers are specifically requested, see **Additional layers** below, or refer to https://www.naturalearthdata.com/features/ to see what else is available
 
-## Tools
+### Determine the requested extent
 
-- **Tools**: Data is extracted using the command line tool `ogr2ogr` from GDAL (https://gdal.org)
+Determine a bounding box for the requested region.
 
-- GDAL is installed locally via Homebrew
+Use tools from the `geomcp` MCP server, if needed.
 
-## Naming conventions
+IMPORTANT: buffer the extent by 20% to ensure generous coverage
+
+### Determine destination folder name
 
 Data should be extracted to a single parent folder whose name reflects the dataset (`ne`), the resolution (`10m` vs `50m` vs `110m`) and the geographic extent (xmin ymin xmax ymax, i.e. southwest to northeast, i.e. bottom-left to top-right)
 
@@ -68,7 +76,11 @@ For example, if the dataset is `10m` and extent is:
 
 Then the corresponding folder would be called `ne-10m--91-29--89-31` i.e. `ne-<scale>-<xmin>-<ymin>-<xmax>-<ymax>`
 
-## Sample script
+Ensure that the folder name is unique, and that we are not overwriting existing data.
+
+If needed, append a simple serial number to the new folder name.
+
+### Write the extraction script
 
 A typical basemap would consist of the layers
 
@@ -90,42 +102,51 @@ ogr2ogr -spat <extent> -clipsrc spat_extent <destination folder> /Users/Shared/G
 Given the example geographic extent above, a full script would be named `extract-new-orleans-basemap.sh` and look as follows:
 
 ```sh
+# Configuration
+
+WEST=-91
+SOUTH=29
+EAST=-89
+NORTH=31
+
+DEST_DIR="ne-10m-${WEST}-${SOUTH}-${EAST}-${NORTH}"
+
 # PHYSICAL
 
 # land
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_physical/ne_10m_land.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_physical/ne_10m_land.shp
 # lakes
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_physical/ne_10m_lakes.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_physical/ne_10m_lakes.shp
 # rivers
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_physical/ne_10m_rivers_lake_centerlines_scale_rank.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_physical/ne_10m_rivers_lake_centerlines_scale_rank.shp
 
 # CULTURAL
 
 # countries
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_0_countries.shp
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_0_boundary_lines_disputed_areas.shp
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_0_boundary_lines_land.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_0_countries.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_0_boundary_lines_disputed_areas.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_0_boundary_lines_land.shp
 # states
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_1_states_provinces_scale_rank.shp
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_1_states_provinces_lines.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_1_states_provinces_scale_rank.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_cultural/ne_10m_admin_1_states_provinces_lines.shp
 ```
 
-### Additional layers
+#### Additional layers
 
 If towns, cities or populated places are **specifically** requested, also include:
 
 ```sh
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_physical/ne_10m_populated_places_simple.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_physical/ne_10m_populated_places_simple.shp
 ```
 
 If historic lakes or water bodies are **specifically** requested, also include:
 
 ```sh
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_physical/ne_10m_lakes_historic.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_physical/ne_10m_lakes_historic.shp
 ```
 
 If glaciated areas or snowcaps are **specifically** requested, also include:
 
 ```sh
-ogr2ogr -spat -91 29 -89 31 -clipsrc spat_extent ne-10m--91-29--89-31 /Users/Shared/Geodata/ne/10m_physical/ne_10m_glaciated_areas.shp
+ogr2ogr -spat $WEST $SOUTH $EAST $NORTH -clipsrc spat_extent $DEST_DIR /Users/Shared/Geodata/ne/10m_physical/ne_10m_glaciated_areas.shp
 ```
