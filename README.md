@@ -56,6 +56,9 @@ $ claude
 
 # preview the results on a globe at http://geojson.io
 > preview those results
+
+# make use of the `creating-basemaps` skill
+> basemap of New York state, including towns, with a 30% buffer
 ```
 
 ## Usage with `georesearch`
