@@ -59,6 +59,9 @@ $ claude
 
 # make use of the `creating-basemaps` skill
 > basemap of New York state, including towns, with a 30% buffer
+
+# make use of the `opening-basemaps-in-qgis` skill
+> visualize that in QGIS
 ```
 
 ## Usage with `georesearch`
