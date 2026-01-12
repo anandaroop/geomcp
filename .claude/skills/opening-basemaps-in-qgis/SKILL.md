@@ -83,7 +83,7 @@ If a specific state or country was requested as the subject of the map then we c
 
 Un-hide the relevant admin0 or admin1 _area_ layer and apply a filter so that the subject state/country is the only visible geometry.
 
-Set it to have a red fill, but adjust its opacity to 10% to create a subtle highlight effect.
+Set it to have a red fill, but adjust its opacity to 10% to create a subtle highlight effect. Done, no need to zoom.
 
 # Caveats
 

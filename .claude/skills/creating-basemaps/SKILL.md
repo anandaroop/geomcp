@@ -10,6 +10,7 @@ You will use the `ne` utility to extract the necessary basemap data.
 Use the following checklist to track your workflow:
 
 ```
+- [ ] Ping QGIS
 - [ ] Determine the appropriate data resolution
 - [ ] Determine the requested extent
 - [ ] Construct the `ne` command
@@ -18,6 +19,14 @@ Use the following checklist to track your workflow:
 ```
 
 ## Workflow
+
+### Ping QGIS
+
+Begin by pinging QGIS to see if it is up an running.
+
+If not print an advisory warning to the console, but do not pause.
+
+Continue with the workflow below.
 
 ### Determine the appropriate data resolution
 
@@ -69,16 +78,23 @@ Rely on the default (cwd) unless specifically requested otherwise
 
 ### Display the data
 
-Using the `qgis` mcp server, determine if QGIS is open with an empty project.
+At this point there should be an open QGIS connection (it was checked earlier and the user was advised).
 
-- If so
-  - proceed directly to "Visualize in QGIS", thus completing the workflow
-- else
-  - Use `AskUserQuestion` tool to ask whether the user wants to visualize or simply reveal the new data in Finder
+Using the `qgis` mcp server, determine the state of the current QGIS project:
+
+- if there is an untitled & unsaved project
+
+  - consider it a transient workspace
+  - remove all existing layers
+  - proceed to "Visualize in QGIS", thus completing the workflow
+
+- else if there is a titled or saved project
+
+  - proceed to "Reveal in Finder", thus completing the workflow
 
 #### Visualize in QGIS
 
-Use the /opening-basemaps-in-qgis skill
+Use the /opening-basemaps-in-qgis skill.
 
 #### Reveal in Finder
 
