@@ -69,12 +69,9 @@ Note that all layers have been added but not all are visible.
 
 ## Style layers appropriately
 
-- **land**: a light beige sandy color
-- **lakes**: a light blue watery color
-- **rivers**: a related blue but darker
-- **admin0**: gray lines
-- **admin1**: gray lines, but lighter weight than admin0
-- **cities**: black dots, with names labeled at font size 12
+Use the template in `./templates/styles.py` to create a script that QGIS will execute
+
+It contains styles for all default layers. If any additional layers are being added, style them appropriately.
 
 Once you have done this, no need to proceed further. I.e. do not create a preview PNG.
 
