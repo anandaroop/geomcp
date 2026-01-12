@@ -3,6 +3,15 @@
     "geomcp": {
       "type": "http",
       "url": "http://localhost:3000/mcp"
+    },
+    "qgis": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/roop/src/me/qgis_mcp/src/qgis_mcp",
+        "run",
+        "qgis_mcp_server.py"
+      ]
     }
   }
 }

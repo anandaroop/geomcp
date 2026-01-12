@@ -13,7 +13,6 @@ Use the following checklist to track your workflow:
 - [ ] Determine the appropriate data resolution
 - [ ] Determine the requested extent
 - [ ] Construct the `ne` command
-- [ ] Confirm the `ne` command
 - [ ] Extract the data
 - [ ] Display the data
 ```
@@ -68,13 +67,22 @@ ne list --default
 
 Rely on the default (cwd) unless specifically requested otherwise
 
-### Confirm the `ne` command
-
-Display the `ne` command and confirm it has been constructed correctly
-
 ### Display the data
 
-Finally display the generated data to the user by issuing a command:
+Using the `qgis` mcp server, determine if QGIS is open with an empty project.
+
+- If so
+  - proceed directly to "Visualize in QGIS", thus completing the workflow
+- else
+  - Use `AskUserQuestion` tool to ask whether the user wants to visualize or simply reveal the new data in Finder
+
+#### Visualize in QGIS
+
+Use the /opening-basemaps-in-qgis skill
+
+#### Reveal in Finder
+
+Open the folder with the newly extracted data
 
 ```sh
 open /full/path/to/destination/dir

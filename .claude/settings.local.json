@@ -9,13 +9,21 @@
       "mcp__geomcp__wikipedia_get_page",
       "mcp__geomcp__nominatim_search",
       "Skill(creating-basemaps)",
+      "Skill(opening-basemaps-in-qgis)",
+      "Skill(opening-basemaps-in-qgis:*)",
       "Bash(ls:*)",
       "Bash(ne:*)",
-      "Bash(open:*)"
+      "Bash(open:*)",
+      "mcp__qgis__add_vector_layer",
+      "mcp__qgis__execute_code",
+      "mcp__qgis__get_layer_features",
+      "mcp__qgis__get_layers",
+      "mcp__qgis__get_project_info",
+      "mcp__qgis__get_qgis_info",
+      "mcp__qgis__ping",
+      "mcp__qgis__zoom_to_layer"
     ]
   },
   "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": [
-    "geomcp"
-  ]
+  "enabledMcpjsonServers": ["geomcp", "qgis"]
 }
